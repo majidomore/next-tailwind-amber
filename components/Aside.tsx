@@ -6,7 +6,7 @@ type Props = {
 
 const Aside = ({ name }: Props) => {
   return (
-    <div className="h-screen border-r-2 border-black w-[35px] fixed left-1 md:flex hidden flex-col items-center">
+    <div className="min-h-screen border-r-2 border-black w-[35px] fixed left-1 md:flex hidden flex-col items-center">
       {/* Aside Logo */}
       <div className="mt-3">
         <svg
