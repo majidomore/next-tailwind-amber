@@ -62,7 +62,7 @@ const Upload: NextPage = () => {
               <p>Upload Videos</p>
             </label>
           </div>
-          <p className="text-center text-sm mt-5 font-rota_bold w-/12">
+          <p className="text-center text-sm mt-5 font-rota_bold w-8/12">
             Enter one URL per line. You can also add YouTube and Vimeo URLS
           </p>
         </div>
