@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
 type Props = {
-    name?: string;
+  name?: string;
 };
 
-const UserProfile = ({ name }: Props) => { 
-    return (
-        <div className="outline outline-2 outline-gray rounded-full p-[2px]">
+const UserProfile = ({ name }: Props) => {
+  return (
+    <div className="outline outline-2 outline-grey rounded-full p-[2px]">
       {/* User Image */}
       <img src="./img/UserProfile.png" alt="User-img" />
     </div>
-    );
+  );
 };
 
 export default UserProfile;

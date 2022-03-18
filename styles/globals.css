@@ -77,6 +77,9 @@
   .addon-card {
     @apply h-[156px] px-6 flex items-center justify-between rounded-md;
   }
+  .gradient_button {
+    @apply bg-gradient-to-b from-alabaster to-iron w-full flex justify-center items-center rounded-full border-[1px] border-dark_grey font-rota_bold text-[18.42px] cursor-pointer;
+  }
 }
 
 @layer utilities {

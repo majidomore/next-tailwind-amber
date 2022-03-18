@@ -6,8 +6,7 @@ import UploadForm from "~/components/UploadForm";
 const Upload: NextPage = () => {
   return (
     <Layout title="Home page">
-      <div className="container mx-auto">
-        <UploadButton />
+      <div className="container mx-auto flex flex-col items-center">
         <UploadForm />
       </div>
     </Layout>

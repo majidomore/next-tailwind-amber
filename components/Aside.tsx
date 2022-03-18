@@ -22,7 +22,7 @@ const Aside = ({ name }: Props) => {
           />
         </svg>
       </div>
-      <nav className="mt-28">
+      <nav className="mt-60">
         <ul className="space-y-5">
           <li>
             <a href="#">
