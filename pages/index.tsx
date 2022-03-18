@@ -7,11 +7,11 @@ import PremiumAddons from "~/components/PremiumAddons";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="container mx-auto">   
-     <Banner/>
-     <ViewsDetails/>
+      <div className="container mx-auto flex flex-col items-center">
+        <Banner />
+        <ViewsDetails />
       </div>
-<PremiumAddons/>
+      <PremiumAddons />
     </Layout>
   );
 };

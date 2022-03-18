@@ -9,29 +9,35 @@
   margin: 0;
   padding: 0;
 }
- @font-face {
+@font-face {
   font-family: "ROTA-regular";
   src: url(../fonts/Rota-Regular.otf);
+  font-display: fallback;
 }
 @font-face {
   font-family: "ROTA-bold";
   src: url(../fonts/Rota-Bold.otf);
+  font-display: fallback;
 }
 @font-face {
   font-family: "ROTA-extrabold";
   src: url(../fonts/Rota-ExtraBold.otf);
+  font-display: fallback;
 }
 @font-face {
   font-family: "ROTA-semibold";
-src: url(../fonts/Rota-SemiBold.otf);
+  src: url(../fonts/Rota-SemiBold.otf);
+  font-display: fallback;
 }
 @font-face {
   font-family: "ROTA-black";
-src: url(../fonts/Rota-Black.otf);
+  src: url(../fonts/Rota-Black.otf);
+  font-display: fallback;
 }
 @font-face {
   font-family: "ROTA-Medium";
-src: url(../fonts/Rota-Medium.otf);
+  src: url(../fonts/Rota-Medium.otf);
+  font-display: fallback;
 }
 
 /* layer base preset */
@@ -58,16 +64,17 @@ src: url(../fonts/Rota-Medium.otf);
   clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 .polygon2 {
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);}
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
 
 @layer components {
   .upload-button {
-    @apply w-full h-[40px] bg-primary text-white rounded-[7px] font-rota_regular mt-5;
+    @apply w-full h-[40px] bg-primary text-white rounded-[7px] font-rota_regular mt-5 md:hidden block;
   }
-  .views-grid{
-    @apply flex flex-col items-center justify-center bg-flow_blue rounded-xl w-[180px] h-[140px] space-y-4 text-center;
+  .views-grid {
+    @apply flex flex-col items-center justify-center bg-flow_blue rounded-xl md:w-[160px] w-[180px] h-[140px] space-y-4 text-center;
   }
-  .addon-card{
+  .addon-card {
     @apply h-[156px] px-6 flex items-center justify-between rounded-md;
   }
 }

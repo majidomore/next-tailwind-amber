@@ -14,6 +14,7 @@ const Header = ({ name }: Props) => {
         <MenuButton />
         {/* Logo */}
         <svg
+          className="md:hidden flex"
           width="14"
           height="27"
           viewBox="0 0 14 27"

@@ -8,10 +8,13 @@ type Props = {
 
 const Nav = ({ name }: Props) => {
   return (
-    <div className="flex space-x-5">
-    <NavIcons />
-    <UserProfile />
-  </div>
+    <div className="flex items-center space-x-5">
+      <button className="h-[40px] w-44 bg-primary text-white rounded-[7px] font-rota_regular md:block hidden">
+        + UploadVideo
+      </button>
+      <NavIcons />
+      <UserProfile />
+    </div>
   );
 };
 

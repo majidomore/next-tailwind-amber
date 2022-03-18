@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
 import Header from "@/components/Header";
+import Aside from "../Aside";
 
 type Props = {
   children?: ReactNode;
@@ -17,8 +18,13 @@ const Layout = ({
     <Head>
       <title>{title}</title>
     </Head>
-    <Header />
-    <main>{children}</main>
+    <div className="flex">
+      <Aside />
+      <div className="w-full">
+        <Header />
+        <main>{children}</main>
+      </div>
+    </div>
   </div>
 );
 
