@@ -29,6 +29,10 @@ src: url(../fonts/Rota-SemiBold.otf);
   font-family: "ROTA-black";
 src: url(../fonts/Rota-Black.otf);
 }
+@font-face {
+  font-family: "ROTA-Medium";
+src: url(../fonts/Rota-Medium.otf);
+}
 
 /* layer base preset */
 /* follwing when compiled will be inserted at the end of base styles */
@@ -58,7 +62,13 @@ src: url(../fonts/Rota-Black.otf);
 
 @layer components {
   .upload-button {
-    @apply w-full h-[40px] bg-primary text-white rounded-[7px] font-rota_regular;
+    @apply w-full h-[40px] bg-primary text-white rounded-[7px] font-rota_regular mt-5;
+  }
+  .views-grid{
+    @apply flex flex-col items-center justify-center bg-flow_blue rounded-xl w-[180px] h-[140px] space-y-4 text-center;
+  }
+  .addon-card{
+    @apply h-[156px] px-6 flex items-center justify-between rounded-md;
   }
 }
 

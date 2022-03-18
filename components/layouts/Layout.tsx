@@ -17,10 +17,8 @@ const Layout = ({
     <Head>
       <title>{title}</title>
     </Head>
-    <div className="container mx-auto">
     <Header />
     <main>{children}</main>
-    </div>
   </div>
 );
 

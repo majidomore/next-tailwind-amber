@@ -8,8 +8,8 @@ type Props = {
 
 const Header = ({ name }: Props) => {
   return (
-    <div className="flex items-center justify-between mt-5">
-      <div className="flex items-center space-x-4">
+    <div className="flex items-center justify-between mt-5 container mx-auto">
+      <div className="flex items-center space-x-5">
         {/* Menu Button */}
         <MenuButton />
         {/* Logo */}

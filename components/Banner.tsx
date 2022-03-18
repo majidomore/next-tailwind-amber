@@ -7,7 +7,7 @@ type Props = {
 
 const Banner = ({ name }: Props) => { 
     return (
-        <div className="mt-5 flex flex-col items-center">
+        <div className="flex flex-col items-center">
           {/* Upload Button */}
         <UploadButton />
         {/* Banner Boxes Starts */}
@@ -77,6 +77,7 @@ const Banner = ({ name }: Props) => {
           </div>
         </div>
         {/* Banner Boxes Ends */}
+        {/* Calendar */}
         <div className='flex items-center justify-center space-x-2 w-[104px] h-[29px] border-[1px] border-gray rounded mt-6'>
           <p className='text-[12px] font-rota_black'>March 2020</p>
           {/* Calendar Icon */}
