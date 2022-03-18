@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./components/**/*.{tsx,js,ts}", "./pages/**/*.{tsx,js,ts}"],
+  content: ["./components/**/*.{tsx,js,ts}", "./pages/**/*.tsx"],
   theme: {
     debugScreens: {
       position: ["bottom", "right"],
@@ -14,11 +14,20 @@ module.exports = {
       },
     },
     extend: {
-      // fontFamily: { headline: ["Oswald"] },
+        fontFamily: {
+          rota_regular: ["ROTA-regular", "regular"],
+          rota_bold:["ROTA-bold","bold"],
+          rota_extrabold:["ROTA-extrabold","extrabold"],
+          rota_semibold:["ROTA-semibold","semibold"],
+          rota_black:["ROTA-black","black"],
+        },
       colors: {
-        bgBody: "#F3F5FD",
-        primary: "#2960FF",
-        gradient: "#4f71c6",
+        primary: "#181D30",
+        secondary: "#373A49",
+        gray: "#C5C7CD",
+        dark_gray: "#787C87",
+        black: "#1E1E1F",
+        blue:"#38A3E0",
       },
     },
   },
