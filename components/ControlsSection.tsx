@@ -21,7 +21,7 @@ const ControlsSection = () => {
         placeholder="Enter video title here"
       />
       {/* Upload Thumbnails */}
-      <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-5">
+      <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mt-5">
         <div className="border-2 border-dashed h-[66px] flex flex-col items-center justify-center pt-2">
           <Thumbnail />
           <p
