@@ -25,10 +25,10 @@ const AddUpload = () => {
           checked={checked}
           onColor="#1A72E7"
           boxShadow="none"
-          handleDiameter={10}
+          handleDiameter={15}
           activeBoxShadow="none"
           uncheckedIcon={
-            <h3 className="font-rota_bold text-[10.41px] text-white pl-1">
+            <h3 className="font-rota_bold text-[10.41px] text-white pl-2">
               OFF
             </h3>
           }
@@ -47,8 +47,9 @@ const AddUpload = () => {
           onColor="#1A72E7"
           boxShadow="none"
           activeBoxShadow="none"
+          handleDiameter={15}
           uncheckedIcon={
-            <h3 className="font-rota_bold text-[10.41px] text-white pl-1">
+            <h3 className="font-rota_bold text-[10.41px] text-white pl-2">
               OFF
             </h3>
           }

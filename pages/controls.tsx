@@ -17,9 +17,10 @@ const Controls = ({ name }: Props) => {
         <Category />
         <AddUpload />
         <hr className="mt-[50px] bg-black h-[1.3px]" />
-        <div>
+        {/* Video Player */}
+        <div className="w-full">
           <svg
-            width="483"
+            width="100%"
             height="381"
             viewBox="0 0 483 381"
             fill="none"
