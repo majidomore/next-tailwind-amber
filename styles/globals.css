@@ -83,6 +83,9 @@
   .input {
     @apply border-[1px] border-grey w-full rounded-[4px] mt-5 placeholder:font-rota_bold placeholder:text-[16.82px] text-dark_grey p-3 pl-6;
   }
+  .controls {
+    @apply flex items-center justify-between px-5 gradient_button h-[45px] pt-1;
+  }
 }
 
 @layer utilities {

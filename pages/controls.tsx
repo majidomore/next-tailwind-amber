@@ -4,6 +4,7 @@ import Category from "~/components/Category";
 import AddUpload from "~/components/AddUpload";
 import ControlsSection from "~/components/ControlsSection";
 import Switch from "react-switch";
+import VideoSettings from "~/components/VideoSettings";
 
 type Props = {
   name?: string;
@@ -12,7 +13,7 @@ type Props = {
 const Controls = ({ name }: Props) => {
   return (
     <Layout>
-      <div className="container mx-auto w-full mt-10 h-full md:px-24">
+      <div className="container mx-auto w-full mt-10 h-full md:px-24 mb-20">
         <ControlsSection />
         <Category />
         <AddUpload />
@@ -96,6 +97,7 @@ const Controls = ({ name }: Props) => {
             />
           </svg>
         </div>
+        <VideoSettings />
       </div>
     </Layout>
   );
