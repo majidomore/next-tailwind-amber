@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "@/components/layouts/Layout";
+import Layout from "../components/layouts/Layout";
 import Category from "~/components/Category";
 import AddUpload from "~/components/AddUpload";
 import ControlsSection from "~/components/ControlsSection";
