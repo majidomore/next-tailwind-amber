@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
-import Header from "@/components/Header";
+import Header from "../Header";
 import Aside from "../Aside";
 
 type Props = {

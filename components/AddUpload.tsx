@@ -33,7 +33,7 @@ const AddUpload = () => {
             </h3>
           }
           checkedIcon={
-            <h3 className="font-rota_bold text-[10.41px] text-white pl-2 focus:text-red-500">
+            <h3 className="font-rota_bold text-[10.41px] text-white pl-3 focus:text-red-500">
               ON
             </h3>
           }
@@ -54,7 +54,7 @@ const AddUpload = () => {
             </h3>
           }
           checkedIcon={
-            <h3 className="font-rota_bold text-[10.41px] text-white pl-2 focus:text-red-500">
+            <h3 className="font-rota_bold text-[10.41px] text-white pl-3 focus:text-red-500">
               ON
             </h3>
           }

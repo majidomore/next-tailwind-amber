@@ -1,6 +1,6 @@
 import React from "react";
-import UserProfile from "@/components/UserProfile";
-import NavIcons from "@/components/NavIcons";
+import UserProfile from "./UserProfile";
+import NavIcons from "./NavIcons";
 
 type Props = {
   name?: string;
