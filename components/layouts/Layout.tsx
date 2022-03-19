@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import Aside from "@/components/Aside";
 
 type Props = {
@@ -9,11 +9,7 @@ type Props = {
   home?: boolean;
 };
 
-const Layout = ({
-  children,
-  title = "This is the default title",
-  home,
-}: Props) => (
+const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -21,7 +17,7 @@ const Layout = ({
     <div className="flex">
       <Aside />
       <div className="w-full">
-        <Header />
+        {/* <Header /> */}
         <main>{children}</main>
       </div>
     </div>

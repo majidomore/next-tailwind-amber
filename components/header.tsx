@@ -1,6 +1,6 @@
 import React from "react";
-import MenuButton from "~/components/MenuButton";
-import Navbar from "./Navbar";
+import MenuButton from "@/components/MenuButton";
+import Navbar from "@/components/Navbar";
 
 type Props = {
   name?: string;
