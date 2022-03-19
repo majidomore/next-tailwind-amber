@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -26,17 +27,32 @@ const Aside = ({ name }: Props) => {
         <ul className="space-y-5">
           <li>
             <a href="#">
-              <img src="./img/upload.svg" alt="upload-icon" />
+              <Image
+                width={20}
+                height={20}
+                src="/img/upload.svg"
+                alt="upload-icon"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./img/manage.svg" alt="manage-icon" />
+              <Image
+                width={20}
+                height={20}
+                src="/img/manage.svg"
+                alt="manage-icon"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./img/settings.svg" alt="settings.svg" />
+              <Image
+                width={20}
+                height={20}
+                src="/img/settings.svg"
+                alt="settings.svg"
+              />
             </a>
           </li>
         </ul>

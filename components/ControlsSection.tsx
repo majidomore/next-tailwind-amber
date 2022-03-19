@@ -1,6 +1,7 @@
 import React from "react";
 import { Thumbnail } from "./Icons";
 import PlayerTheme from "./PlayerTheme";
+import Image from "next/image";
 const ControlsSection = () => {
   return (
     <div>
@@ -31,8 +32,8 @@ const ControlsSection = () => {
             Upload thumbnail
           </p>
         </div>
-        <img src="./img/image1.png" alt="" />
-        <img src="./img/image2.png" alt="" />
+        <Image width={50} height={23} src="/img/image1.png" alt="" />
+        <Image width={50} height={23} src="/img/image2.png" alt="" />
         <div className="border-2 border-dashed h-[66px] flex flex-col items-center justify-center pt-2">
           <Thumbnail />
           <p

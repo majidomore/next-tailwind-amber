@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 type Props = {
   name?: string;
@@ -33,7 +34,7 @@ const PremiumAddons = ({ name }: Props) => {
                 (7 Dov free trial available)
               </p>
             </div>
-            <img src="./img/3d_paint.svg" alt="" />
+            <Image height={150} width={150} src="/img/3d_paint.svg" alt="" />
           </div>
         </div>
         {/* Card 2 */}
@@ -51,7 +52,12 @@ const PremiumAddons = ({ name }: Props) => {
                 (7 Dov free trial available)
               </p>
             </div>
-            <img src="./img/3d_rocket.svg" alt="3d_rocket" />
+            <Image
+              height={150}
+              width={150}
+              src="/img/3d_rocket.svg"
+              alt="3d_rocket"
+            />
           </div>
         </div>
         {/* Card 3 */}
@@ -66,7 +72,12 @@ const PremiumAddons = ({ name }: Props) => {
                 <p className="pt-1">$19/month</p>
               </button>
             </div>
-            <img src="./img/3d_hand.svg" alt="3d_hand" />
+            <Image
+              height={150}
+              width={150}
+              src="/img/3d_hand.svg"
+              alt="3d_hand"
+            />
           </div>
         </div>
         {/* Card 4 */}
@@ -81,7 +92,12 @@ const PremiumAddons = ({ name }: Props) => {
                 <p className="pt-1">$9/month</p>
               </button>
             </div>
-            <img src="./img/3d_document.svg" alt="3d_document" />
+            <Image
+              height={150}
+              width={150}
+              src="/img/3d_document.svg"
+              alt="3d_document"
+            />
           </div>
         </div>
       </div>
