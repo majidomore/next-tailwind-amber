@@ -5,13 +5,6 @@ type Props = {
   name?: string;
 };
 
-const array = [
-  {
-    id: 1,
-    image1: <img src="./img/image1.png" alt="" />,
-  },
-];
-
 const UploadForm = ({ name }: Props) => {
   return (
     <div className="flex flex-col items-center mt-10 sm:mt-72 sm:w-[474px] w-full">

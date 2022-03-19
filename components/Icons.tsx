@@ -141,3 +141,102 @@ export const Thumbnail = () => {
     </svg>
   );
 };
+
+export const Play = () => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.47449 0.794806L16.3372 8.26731C17.0438 8.64823 17.0362 9.66461 16.3239 10.0349L2.4612 17.2405C1.7955 17.5865 1 17.1034 1 16.3532V1.67507C1 0.918194 1.80825 0.435676 2.47449 0.794806Z"
+        stroke="black"
+      />
+    </svg>
+  );
+};
+
+export const Down = () => {
+  return (
+    <svg
+      width="9"
+      height="4"
+      viewBox="0 0 9 4"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.605575 0H8.39442C8.93326 0 9.20267 0.509932 8.82125 0.808776L4.92834 3.86125C4.69222 4.04625 4.30778 4.04625 4.07166 3.86125L0.178747 0.808776C-0.202673 0.509932 0.0667427 0 0.605575 0Z"
+        fill="#787C87"
+      />
+    </svg>
+  );
+};
+
+export const Cancel = () => {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 22 22"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14 8L8 14"
+        stroke="#1E1E1F"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+        stroke="#1E1E1F"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8 8L14 14"
+        stroke="#1E1E1F"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Plus = () => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="9"
+        y1="1"
+        x2="9"
+        y2="17"
+        stroke="#1E1E1F"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="17"
+        y1="9"
+        x2="1"
+        y2="9"
+        stroke="#1E1E1F"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
