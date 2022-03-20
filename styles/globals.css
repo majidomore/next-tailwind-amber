@@ -81,7 +81,7 @@
     @apply bg-gradient-to-b from-alabaster to-iron w-full flex justify-center items-center rounded-full border-[1px] border-dark_grey font-rota_bold text-[18.42px] cursor-pointer;
   }
   .input {
-    @apply border-[1px] border-grey w-full rounded-[4px] mt-5 placeholder:font-rota_bold placeholder:text-[16.82px] text-dark_grey p-3 pl-6;
+    @apply border-[1px] border-grey w-full rounded-[4px] placeholder:font-rota_bold placeholder:text-[16.82px] text-dark_grey p-3 pl-6;
   }
   .controls {
     @apply flex items-center justify-between px-5 gradient_button h-[45px] pt-1;

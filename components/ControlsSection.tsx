@@ -18,7 +18,7 @@ const ControlsSection = () => {
       </div>
       <input
         type="text"
-        className="input"
+        className="input mt-5"
         placeholder="Enter video title here"
       />
       {/* Upload Thumbnails */}

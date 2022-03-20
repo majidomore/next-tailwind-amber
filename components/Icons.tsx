@@ -331,3 +331,234 @@ export const Upload = () => {
     </svg>
   );
 };
+
+export const Search = () => {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6.57987 0C10.2079 0 13.1591 2.88576 13.1591 6.43351C13.1591 8.10732 12.5022 9.63393 11.4272 10.7797L13.5424 12.8437C13.7404 13.0373 13.741 13.3504 13.5431 13.544C13.4444 13.6418 13.314 13.69 13.1843 13.69C13.0553 13.69 12.9256 13.6418 12.8262 13.5453L10.6855 11.4578C9.5594 12.3397 8.13155 12.8677 6.57987 12.8677C2.95179 12.8677 0 9.98125 0 6.43351C0 2.88576 2.95179 0 6.57987 0ZM6.57987 0.99099C3.51052 0.99099 1.01343 3.43213 1.01343 6.43351C1.01343 9.43489 3.51052 11.8767 6.57987 11.8767C9.64853 11.8767 12.1456 9.43489 12.1456 6.43351C12.1456 3.43213 9.64853 0.99099 6.57987 0.99099Z"
+        fill="#787C87"
+      />
+    </svg>
+  );
+};
+
+export const ChevronDown = () => {
+  return (
+    <svg
+      width="13"
+      height="6"
+      viewBox="0 0 13 6"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 1L6.5 5L1 1"
+        stroke="#787C87"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Circle = () => {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="16" cy="16" r="15.5" stroke="black" />
+      <circle cx="16" cy="16" r="6" fill="black" />
+    </svg>
+  );
+};
+
+export const Pencil = () => {
+  return (
+    <svg
+      width="19"
+      height="19"
+      viewBox="0 0 19 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.4767 5.27067L16.7659 6.98148C16.5915 7.1559 16.3094 7.1559 16.135 6.98148L12.0157 2.86217C11.8413 2.68775 11.8413 2.40571 12.0157 2.23129L13.7265 0.52048C14.4205 -0.173493 15.5487 -0.173493 16.2464 0.52048L18.4767 2.75084C19.1744 3.44481 19.1744 4.57298 18.4767 5.27067ZM10.5461 3.70088L0.80072 13.4462L0.0139651 17.9552C-0.0936571 18.5638 0.437032 19.0907 1.04565 18.9868L5.55465 18.1964L15.3 8.45107C15.4744 8.27665 15.4744 7.99461 15.3 7.82018L11.1807 3.70088C11.0026 3.52646 10.7205 3.52646 10.5461 3.70088ZM4.60461 12.6112C4.4005 12.4071 4.4005 12.0805 4.60461 11.8764L10.3197 6.16133C10.5238 5.95722 10.8504 5.95722 11.0545 6.16133C11.2586 6.36544 11.2586 6.69201 11.0545 6.89612L5.33941 12.6112C5.1353 12.8153 4.80872 12.8153 4.60461 12.6112ZM3.2649 15.7322H5.04623V17.0793L2.65256 17.4987L1.49841 16.3445L1.91776 13.9509H3.2649V15.7322Z"
+        fill="black"
+      />
+    </svg>
+  );
+};
+
+export const Code = () => {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 22 22"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <rect width="22" height="22" fill="url(#pattern0)" />
+      <rect
+        x="0.785645"
+        y="2.35724"
+        width="20.4286"
+        height="3.14286"
+        fill="black"
+      />
+      <defs>
+        <pattern
+          id="pattern0"
+          patternContentUnits="objectBoundingBox"
+          width="1"
+          height="1"
+        >
+          <use xlinkHref="#image0_221_29856" transform="scale(0.0208333)" />
+        </pattern>
+        <image
+          id="image0_221_29856"
+          width="48"
+          height="48"
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRoge1ZS2rDMBB9i9Bdk0PUXhVaJ9DDpIvkEqabHqSLQhftNmco7Tp36AkaQrLroplikGEqrESa2JZk9GDAHvR5b0YjCRtISGgNCwCfAPYAKFDbK45LnfxrAOTI0d545ClSW0ClpHY8ARgjXFwqjjXfD2hrPmTyNcZaTfxLSSwgzjkJ8AAabAYoQoNvApQEYEA1EAsoCfAMShmIPQNTAF/KMov2maF9xvzTvgTMAGxYn9Kiz8rQvmT+jRq7UwE6+eo5P9HnBsBBtT+o9xp5w3izrgQUAL5Z2y2AO8for1oal1wFSMlfA/hl0b9taXxyESAlbxN96TzWAqRr1CX6p2rsCmcI4LsENX1Qain6HEttztJHBiTR7yQD0hqQRL/oogYkg0uiX3S5C7lO4hr9oo9zwPYkPnbqNiHv8yQ2iTDdbWyiXwq36LMEHLuNmm6dJmQ+bqMhgJIAz6BBZeCHvVwgfEwY313lWDPHY+AiJgCeGd/3yvmgpSQmu68EjNTPMorMXnhqRioTa60mQrOdWjZzX2s4YXD4A91EA212rv5OAAAAAElFTkSuQmCC"
+        />
+      </defs>
+    </svg>
+  );
+};
+
+export const VideoPlayer = () => {
+  return (
+    <svg
+      width="17"
+      height="15"
+      viewBox="0 0 17 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="17" height="15" rx="3" fill="black" />
+      <path d="M11 8L7.25 10.5981L7.25 5.40192L11 8Z" fill="white" />
+      <rect x="1" y="2" width="1" height="1" fill="white" />
+      <rect x="1" y="12" width="1" height="1" fill="white" />
+      <rect x="3" y="2" width="1" height="1" fill="white" />
+      <rect x="3" y="12" width="1" height="1" fill="white" />
+      <rect x="5" y="2" width="1" height="1" fill="white" />
+      <rect x="5" y="12" width="1" height="1" fill="white" />
+      <rect x="7" y="2" width="1" height="1" fill="white" />
+      <rect x="7" y="12" width="1" height="1" fill="white" />
+      <rect x="9" y="2" width="1" height="1" fill="white" />
+      <rect x="9" y="12" width="1" height="1" fill="white" />
+      <rect x="11" y="2" width="1" height="1" fill="white" />
+      <rect x="11" y="12" width="1" height="1" fill="white" />
+      <rect x="13" y="2" width="1" height="1" fill="white" />
+      <rect x="13" y="12" width="1" height="1" fill="white" />
+      <rect x="15" y="2" width="1" height="1" fill="white" />
+      <rect x="15" y="12" width="1" height="1" fill="white" />
+    </svg>
+  );
+};
+
+export const Download = () => {
+  return (
+    <svg
+      width="18"
+      height="22"
+      viewBox="0 0 18 22"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect y="4" width="18" height="18" rx="2" fill="black" />
+      <path
+        d="M9 17L9 4"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M5 13L9 17L13 13"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <line x1="9" y1="4" x2="9" stroke="black" strokeWidth="2" />
+    </svg>
+  );
+};
+
+export const WindowFile = () => {
+  return (
+    <svg
+      width="28"
+      height="28"
+      viewBox="0 0 28 28"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="1"
+        y="1"
+        width="26"
+        height="26"
+        rx="2"
+        stroke="black"
+        strokeWidth="1.4"
+      />
+      <rect
+        x="16.7"
+        y="13.7"
+        width="6.6"
+        height="6.6"
+        rx="1.3"
+        stroke="black"
+        strokeWidth="1.4"
+      />
+      <path
+        d="M4 17H13"
+        stroke="black"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 14H13"
+        stroke="black"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 20H9"
+        stroke="black"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11 20H14"
+        stroke="black"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <line x1="1" y1="6.5" x2="27" y2="6.5" stroke="black" />
+      <circle cx="5" cy="4" r="1" fill="black" />
+      <circle cx="8" cy="4" r="1" fill="black" />
+    </svg>
+  );
+};

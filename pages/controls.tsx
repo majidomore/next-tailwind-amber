@@ -3,14 +3,10 @@ import Layout from "../components/layouts/Layout";
 import Category from "~/components/Category";
 import AddUpload from "~/components/AddUpload";
 import ControlsSection from "~/components/ControlsSection";
-import Switch from "react-switch";
 import VideoSettings from "~/components/VideoSettings";
+import { NextPage } from "next";
 
-type Props = {
-  name?: string;
-};
-
-const Controls = ({ name }: Props) => {
+const Controls: NextPage = () => {
   return (
     <Layout>
       <div className="container mx-auto w-full mt-10 h-full md:px-24 mb-20">
