@@ -562,3 +562,71 @@ export const WindowFile = () => {
     </svg>
   );
 };
+
+export const Flag = () => {
+  return (
+    <div className="flex flex-col items-center">
+      <svg
+        className="absolute"
+        width="26"
+        height="13"
+        viewBox="0 0 26 13"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M26 13C26 9.55219 24.6304 6.24558 22.1924 3.80761C19.7544 1.36964 16.4478 2.60303e-07 13 0C9.55219 -2.60303e-07 6.24559 1.36964 3.80761 3.80761C1.36964 6.24558 5.20606e-07 9.55218 0 13L13 13H26Z"
+          fill="#CC172C"
+        />
+      </svg>
+      <svg
+        width="26"
+        height="26"
+        viewBox="0 0 26 26"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="13" cy="13" r="13" fill="white" />
+      </svg>
+    </div>
+  );
+};
+
+export const Union = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10ZM20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10ZM10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z"
+        fill="#462291"
+        fillOpacity="0.42"
+      />
+    </svg>
+  );
+};
+
+export const Ellipse = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
+        fill="#C5C7CD"
+      />
+    </svg>
+  );
+};

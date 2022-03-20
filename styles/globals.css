@@ -66,6 +66,11 @@
 .polygon2 {
   clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
 
 @layer components {
   .upload-button {

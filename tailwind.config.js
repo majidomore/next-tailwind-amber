@@ -50,6 +50,7 @@ module.exports = {
         dordgeblue: "#1a72e7",
         nevada: "#616A71",
         light_indigo: "#EDF5FF",
+        purple: "#462291",
       },
     },
   },
