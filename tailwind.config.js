@@ -54,6 +54,7 @@ module.exports = {
         signup_bg: "#161616",
         soft_grey: "#999A9C",
         soft_black: "#222222",
+        darky_blue: "#2856F9",
       },
     },
   },
