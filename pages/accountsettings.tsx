@@ -1,9 +1,14 @@
 import { NextPage } from "next";
 import React from "react";
-import AccountHeader from "~/components/AccountHeader";
-import AllowedDomains from "~/components/AllowedDomains";
-import EnabledReso from "~/components/EnabledReso";
-import SecurityOptions from "~/components/SecurityOptions";
+import AccountHeader from "@/components/AccountHeader";
+import AddPonder from "@/components/AddPonder";
+import AllowedDomains from "@/components/AllowedDomains";
+import CustomDomain from "@/components/CustomDomain";
+import EnabledReso from "@/components/EnabledReso";
+import SecurityOptions from "@/components/SecurityOptions";
+import TeamAccounts from "@/components/TeamAccounts";
+import WhiteAgency from "@/components/WhiteAgency";
+import UsageStat from "~/components/UsageStat";
 
 const AccountSettings: NextPage = () => {
   return (
@@ -12,6 +17,11 @@ const AccountSettings: NextPage = () => {
       <EnabledReso />
       <SecurityOptions />
       <AllowedDomains />
+      <TeamAccounts />
+      <CustomDomain />
+      <AddPonder />
+      <WhiteAgency />
+      <UsageStat />
     </div>
   );
 };
