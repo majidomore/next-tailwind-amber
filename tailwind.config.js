@@ -55,6 +55,8 @@ module.exports = {
         soft_grey: "#999A9C",
         soft_black: "#222222",
         darky_blue: "#2856F9",
+        soft_green: "#E1FFF2",
+        jungle_green: "#31B37D",
       },
     },
   },
