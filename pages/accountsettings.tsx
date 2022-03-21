@@ -12,7 +12,7 @@ import UsageStat from "~/components/UsageStat";
 
 const AccountSettings: NextPage = () => {
   return (
-    <div className="container mx-auto pt-4 space-y-5 pb-20">
+    <div className="container mx-auto pt-4 space-y-5 pb-10">
       <AccountHeader />
       <EnabledReso />
       <SecurityOptions />

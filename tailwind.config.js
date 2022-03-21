@@ -72,6 +72,8 @@ module.exports = {
         royal_blue: "#2C62DF",
         crusta: "#FD833D",
         emrald: "#30CF5F",
+        lock_blue: "#6089DA",
+        red: "#EE4A4F",
       },
     },
   },
