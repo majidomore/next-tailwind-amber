@@ -71,6 +71,27 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
+.orange_btn {
+  background: linear-gradient(
+    87.58deg,
+    #9a3e8f -9.27%,
+    #c53660 26.48%,
+    #e93141 72.2%,
+    #f98b51 98.87%
+  );
+}
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #9052a5, #f76e2e);
+}
+.border-gradient2 {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #f76e2e, #9052a5);
+}
 
 @layer components {
   .upload-button {
