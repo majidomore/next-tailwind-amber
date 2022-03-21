@@ -1000,3 +1000,140 @@ export const ArrowRight = () => {
     </svg>
   );
 };
+
+export const Tick = () => {
+  return (
+    <svg
+      width="14"
+      height="13"
+      viewBox="0 0 14 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="0.910156"
+        width="12.9659"
+        height="13"
+        rx="6.48294"
+        fill="#50992B"
+      />
+      <path
+        d="M10.8837 5.19775L6.76949 9.25714L4.89941 7.41197"
+        stroke="white"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Cross = () => {
+  return (
+    <svg
+      width="14"
+      height="13"
+      viewBox="0 0 14 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="0.910156"
+        width="12.9659"
+        height="13"
+        rx="6.48294"
+        fill="#C5C7CD"
+      />
+      <path
+        d="M9.68269 4.28731L4.80583 9.29421"
+        stroke="#787C87"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.70411 9.27175L4.78341 4.30945"
+        stroke="#787C87"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Right = () => {
+  return (
+    <svg
+      width="7"
+      height="13"
+      viewBox="0 0 7 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.05176 1.04921L6.23812 6.32645L1.05176 11.6037"
+        stroke="white"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Error = () => {
+  return (
+    <svg
+      width="17"
+      height="16"
+      viewBox="0 0 17 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <ellipse cx="8.1831" cy="8" rx="7.979" ry="8" fill="#1E1E1F" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M8.3431 6.06805C8.76995 6.06805 9.11638 5.70925 9.11638 5.2749C9.11638 4.84055 8.76995 4.48804 8.3431 4.48804C7.91625 4.48804 7.56982 4.84055 7.56982 5.2749V5.28644C7.56982 5.72079 7.91625 6.06805 8.3431 6.06805ZM7.60369 11.5419C7.60369 11.9561 7.93947 12.2919 8.35369 12.2919C8.7679 12.2919 9.10369 11.9561 9.10369 11.5419L9.10369 8.28967C9.10369 7.87546 8.7679 7.53967 8.35369 7.53967C7.93947 7.53967 7.60369 7.87546 7.60369 8.28967L7.60369 11.5419Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
+
+export const WhiteTick = () => {
+  return (
+    <svg
+      width="11"
+      height="9"
+      viewBox="0 0 11 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.88263 1.48389L3.71137 7.57297L0.90625 4.8052"
+        stroke="white"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const SimpleCross = () => {
+  return (
+    <svg
+      width="8"
+      height="8"
+      viewBox="0 0 8 8"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M7.19189 2.14216C7.50135 1.82446 7.49765 1.31688 7.18364 1.00846C6.86963 0.700042 6.36421 0.707569 6.05476 1.02527L4.18385 2.94607L2.29175 1.03797C1.98182 0.725414 1.4764 0.726296 1.16286 1.03994C0.849323 1.35358 0.846399 1.86121 1.15633 2.17376L3.06312 4.09668L1.1779 6.03217C0.868448 6.34988 0.872143 6.85745 1.18615 7.16587C1.50016 7.47429 2.00558 7.46676 2.31504 7.14906L4.18558 5.22863L6.07704 7.13608C6.38697 7.44863 6.89239 7.44775 7.20593 7.13411C7.51947 6.82047 7.52239 6.31284 7.21246 6.00029L5.30631 4.07802L7.19189 2.14216Z"
+        fill="#787C87"
+      />
+    </svg>
+  );
+};
