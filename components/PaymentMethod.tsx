@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Ellipse, Union } from "./Icons";
+import { Amex, Ellipse, MasterCard, Paypal, Union, Visa } from "./Icons";
 
 const PaymentMethod = () => {
   return (
-    <div className="container mx-auto mt-5 mb-20">
+    <div className="container mx-auto mt-5 mb-20 flex flex-col items-center">
       <div className="flex items-center space-x-4 group">
         <hr className="bg-purple h-1 w-[18px]" />
         <h3 className="font-rota_black text-[17px] mt-1 group-focus:text-5xl">
@@ -11,7 +11,7 @@ const PaymentMethod = () => {
         </h3>
       </div>
       {/* Payment methods */}
-      <div className="space-y-3">
+      <div className="space-y-3 w-full">
         {/* Credit Card */}
         <div className="border-[1.5px] border-purple rounded p-3 h-[113px] flex items-center mt-1 group">
           <div className="flex space-x-4">
@@ -55,6 +55,7 @@ const PaymentMethod = () => {
         </div>
       </div>
       <form className="mt-10 space-y-5 flex flex-col items-center">
+        {/* Card Number */}
         <div className="w-full">
           <label htmlFor="" className="font-rota_black text-dark_grey">
             CARD NUMBER
@@ -65,12 +66,14 @@ const PaymentMethod = () => {
             className="input mt-2"
           />
         </div>
+        {/* Name on Card */}
         <div className="w-full">
           <label htmlFor="" className="font-rota_black text-dark_grey">
             NAME ON CARD
           </label>
           <input type="text" className="input mt-2" />
         </div>
+        {/* Date and Code */}
         <div className="flex space-x-4">
           <div className="">
             <label htmlFor="" className="font-rota_black text-dark_grey">
@@ -79,7 +82,6 @@ const PaymentMethod = () => {
             <input
               type="text"
               className="input mt-2 date-input"
-              value=""
               placeholder="MM/YY"
             />
           </div>
@@ -90,19 +92,29 @@ const PaymentMethod = () => {
             <input
               type="text"
               className="input mt-2 date-input"
-              value=""
               placeholder="- - - -"
             />
           </div>
         </div>
+        {/* Total */}
         <div className="bg-purple h-[50px] flex items-center justify-between px-3 font-rota_black text-[17px] pt-1 text-white rounded w-full">
           <p>GRAND TOTAL</p>
           <p>$110</p>
         </div>
-        <button className="bg-purple h-[50px] w-[266px] flex items-center justify-center px-3 font-rota_black text-[17px] pt-1 text-white rounded-full">
+        {/* Submit and pay */}
+        <button
+          type="submit"
+          className="bg-purple h-[50px] w-[266px] flex items-center justify-center px-3 font-rota_black text-[17px] pt-1 text-white rounded-full"
+        >
           <p>Confirm & pay</p>
         </button>
       </form>
+      <div className="flex space-x-4 mt-10">
+        <MasterCard />
+        <Visa />
+        <Paypal />
+        <Amex />
+      </div>
     </div>
   );
 };
