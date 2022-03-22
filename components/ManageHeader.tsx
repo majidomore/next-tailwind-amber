@@ -13,10 +13,10 @@ const ManageHeader = ({ name }: Props) => {
         <MenuButton />
         <Logo />
       </div>
-      <p className="font-rota_semibold">
+      <p className="font-rota_semibold whitespace-nowrap">
         Manage Videos <span className="text-dordgeblue"> | </span> Manage
         Playlist <span className="text-dordgeblue"> | </span>
-        Manage <span className="md:block hidden">Popups</span>
+        Manage <span className="invisible md:visible">Popups</span>
       </p>
     </header>
   );
