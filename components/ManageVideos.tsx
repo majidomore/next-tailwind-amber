@@ -60,19 +60,19 @@ export const data = [
 
 const ManageVideos = ({ name }: Props) => {
   return (
-    <div className="mt-8 whitespace-nowrap w-full">
+    <div className="mt-10 whitespace-nowrap w-96 ml-10">
       <div className="font-rota_bold text-sm flex items-center">
         <div className="flex space-x-14">
           <p>Move</p>
           <p>Videos (3 Total) </p>
         </div>
-        <div className="flex ml-80 space-x-10">
+        <div className="flex ml-80 space-x-12">
           <p>Views</p>
           <p>Avg view duration</p>
           <p>Avg % viewed</p>
         </div>
       </div>
-      <div className="mt-5 space-y-3 divide-y-2 w-full">
+      <div className="mt-5 space-y-3 w-full">
         {data.map((array) => (
           <div
             className="flex items-center space-x-5 font-rota_semibold text-sm pt-3"
@@ -87,10 +87,10 @@ const ManageVideos = ({ name }: Props) => {
                 <p>{array.time}</p>
               </div>
             </div>
-            <div className="flex space-x-9 pl-24">
+            <div className="flex space-x-9 pl-[6rem]">
               <p>{array.views}</p>
               <p className="pl-4">{array.viewduration}</p>
-              <p className="pl-6">{array.avgviewed}</p>
+              <p className="pl-10">{array.avgviewed}</p>
             </div>
             <div className="flex items-center space-x-5 pl-6">
               <a href="#">{array.pencil}</a>

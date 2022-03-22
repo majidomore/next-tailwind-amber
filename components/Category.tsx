@@ -12,7 +12,7 @@ const Category = () => {
         {/* Category */}
         <button
           onClick={menu}
-          className="flex items-center justify-evenly border-[1px] border-grey w-6/12 h-10 rounded-[4px] mt-5"
+          className="flex items-center justify-between px-6 border-[1px] border-grey w-6/12 h-10 rounded-[4px] mt-5"
         >
           <p className="font-rota_bold text-[16.82px] text-dark_grey">
             Add to category
@@ -20,7 +20,7 @@ const Category = () => {
           <Down />
         </button>
         {/* Playlist */}
-        <button className="flex items-center justify-evenly px-5 border-[1px] border-grey w-6/12 h-10 rounded-[4px] mt-5">
+        <button className="flex items-center justify-between px-6 border-[1px] border-grey w-6/12 h-10 rounded-[4px] mt-5">
           <p className="font-rota_bold text-[16.82px] text-dark_grey">
             Add to Playlist
           </p>
@@ -29,7 +29,7 @@ const Category = () => {
       </div>
       {/* Category Dropdown */}
       {Open && (
-        <div className="w-full mt-3 h-[293px] flex flex-col border-2 border-grey border-b-0">
+        <div className="w-8/12 bg-white md:absolute mt-3 h-[293px] flex flex-col border-2 border-grey border-b-0">
           <div className="container mx-auto px-7 space-y-5 pt-6 overflow-y-scroll">
             <div className="flex items-center justify-between">
               <div className="flex space-x-[15px]">

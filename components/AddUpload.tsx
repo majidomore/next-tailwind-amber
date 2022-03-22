@@ -27,8 +27,8 @@ const AddUpload = () => {
     setChecked3(nextChecked);
   };
   return (
-    <div className="container mx-auto font-rota_bold text-lg space-y-5 mt-5">
-      <div className="flex justify-between">
+    <div className="font-rota_bold text-lg space-y-5 mt-7 pb-16">
+      <div className="flex justify-between ">
         <p className="">+ Add Card / Annotation</p>
         <Switch
           onChange={handleChange3}

@@ -6,8 +6,8 @@ import PremiumAddons from "~/components/PremiumAddons";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
-      <div className="container mx-auto flex flex-col items-center">
+    <Layout header>
+      <div className="flex flex-col items-center px-7">
         <Banner />
         <ViewsDetails />
       </div>

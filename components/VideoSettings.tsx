@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BarColor from "./BarColor";
 import { ChevronRight, Delete, Down, Upload } from "./Icons";
 
 type Props = {
@@ -13,7 +14,7 @@ const VideoSettings = ({ name }: Props) => {
   };
 
   return (
-    <div>
+    <div className="mt-7">
       {/* Load Settings */}
       <div className="flex justify-between items-center border-[1px] border-grey h-[47px] rounded px-5">
         <p className="text-dark_grey text-[16.82px] font-rota_bold mt-1">
@@ -22,26 +23,7 @@ const VideoSettings = ({ name }: Props) => {
         <Down />
       </div>
       {/* Bar Color */}
-      <div className="flex justify-between  space-x-3 mt-5">
-        <div className="w-6/12">
-          <p className="text-[16.82px] font-rota_bold">Control bar color</p>
-          <div className="flex border-[1px] border-black rounded w-full h-[34px] mt-1">
-            <span className="bg-black rounded-r-sm w-[41px]"></span>
-            <p className="font-rota_bold text-dark_grey text-xs ml-7 mt-2">
-              #ffc90e
-            </p>
-          </div>
-        </div>
-        <div className="w-6/12">
-          <p className="text-[16.82px] font-rota_bold">Play button color</p>
-          <div className="flex border-[1px] border-black rounded h-[34px] mt-1">
-            <span className="bg-dark_grey h-full w-[41px]"></span>
-            <p className="font-rota_bold text-dark_grey text-xs ml-7 mt-2">
-              #ffc90e
-            </p>
-          </div>
-        </div>
-      </div>
+      <BarColor />
       {/* Show Controls */}
       <button
         onClick={clickhandle}
@@ -101,7 +83,7 @@ const VideoSettings = ({ name }: Props) => {
       {/* Upload Files */}
       <div className="space-y-5 mt-7">
         <div className="w-full h-[68px] flex justify-evenly items-center">
-          <div className="bg-light_blue p-5 w-[321px] rounded-md">
+          <div className="bg-light_blue p-5 w-full rounded-md">
             <input type="file" id="upload1" className="hidden" />
             <label htmlFor="upload1" className="flex items-center space-x-5">
               <Upload />

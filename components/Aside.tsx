@@ -7,7 +7,7 @@ type Props = {
 
 const Aside = ({ name }: Props) => {
   return (
-    <div className="min-h-screen border-r-2 border-black w-[35px] fixed left-1 md:flex hidden flex-col items-center">
+    <div className="min-h-screen border-r-2 border-black w-10 md:flex hidden flex-col items-center">
       {/* Aside Logo */}
       <div className="mt-3">
         <svg
@@ -23,8 +23,9 @@ const Aside = ({ name }: Props) => {
           />
         </svg>
       </div>
-      <nav className="mt-60">
+      <nav className="mt-28">
         <ul className="space-y-5">
+          {/* Upload Icon  */}
           <li>
             <a href="#">
               <Image
@@ -35,6 +36,7 @@ const Aside = ({ name }: Props) => {
               />
             </a>
           </li>
+          {/* Manage Icon */}
           <li>
             <a href="#">
               <Image
@@ -45,6 +47,7 @@ const Aside = ({ name }: Props) => {
               />
             </a>
           </li>
+          {/* Settings Icon */}
           <li>
             <a href="#">
               <Image

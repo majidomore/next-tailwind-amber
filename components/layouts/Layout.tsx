@@ -6,10 +6,14 @@ import Aside from "@/components/Aside";
 type Props = {
   children?: ReactNode;
   title?: string;
-  home?: boolean;
+  header?: boolean;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({
+  children,
+  title = "This is the default title",
+  header,
+}: Props) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -17,7 +21,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     <div className="flex">
       <Aside />
       <div className="w-full">
-        <Header />
+        {header && <Header />}
         <main>{children}</main>
       </div>
     </div>

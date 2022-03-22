@@ -5,17 +5,6 @@ import Image from "next/image";
 const ControlsSection = () => {
   return (
     <div>
-      <div className="flex items-center sm:flex-row flex-col w-full space-x-5">
-        {/* Loading bar */}
-        <div className="text-white w-full rounded-full text-center border-2 md:border-4 border-black">
-          <div className="w-72 bg-black h-6 rounded-l-full font-rota_medium text-sm pt-1">
-            Uploading 70%...30 seconds left
-          </div>
-        </div>
-        <button className="gradient_button w-[135px] h-[45px] sm:mt-0 mt-5">
-          Cancel
-        </button>
-      </div>
       <input
         type="text"
         className="input mt-5"

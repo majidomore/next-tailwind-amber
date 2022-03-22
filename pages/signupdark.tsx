@@ -26,9 +26,19 @@ const SignupDark = ({ name }: Props) => {
       <div className="container mx-auto flex flex-col items-center">
         <SignupHeader />
         <SignupBanner />
-        <SignupLinks />
-        <h2 className="mt-7 text-[38px] text-soft_grey">/</h2>
-        <Signup />
+        <div className="flex flex-col md:flex-col-reverse items-center md:w-4/6 w-full">
+          <SignupLinks />
+          <h2 className="mt-7 text-[38px] text-soft_grey">/</h2>
+          <Signup />
+        </div>
+      </div>
+      <div className="mt-6 text-center">
+        <a href="#" className="text-white font-rota_semibold text-xl">
+          Already have an account?
+          <a href="#" className="underline">
+            Sign In
+          </a>
+        </a>
       </div>
     </div>
   );

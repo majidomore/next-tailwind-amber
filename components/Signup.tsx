@@ -32,11 +32,6 @@ const Signup = ({ name }: Props) => {
           <ArrowRight />
         </button>
       </form>
-      <div className="mt-6 text-center">
-        <a href="#" className="text-white font-rota_semibold text-xl">
-          Already have an account? Sign In
-        </a>
-      </div>
     </div>
   );
 };

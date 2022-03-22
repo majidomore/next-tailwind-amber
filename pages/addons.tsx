@@ -9,7 +9,7 @@ type Props = {
 
 const Addons: NextPage = () => {
   return (
-    <Layout>
+    <Layout header>
       <div className="bg-spring_wood mt-7">
         {/* Heading */}
         <div className="text-center">

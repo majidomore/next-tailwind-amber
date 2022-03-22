@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 type Props = {
   name?: string;
@@ -7,7 +6,7 @@ type Props = {
 
 const AddonsCards = ({ name }: Props) => {
   return (
-    <div className="space-y-4 pb-20">
+    <div className="space-y-4 pb-20 px-20">
       {/* Addon 1 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-green pb-2">
@@ -25,12 +24,14 @@ const AddonsCards = ({ name }: Props) => {
               <p className="pt-1">$19/month</p>
             </button>
           </div>
-          <Image
-            height={130}
-            width={130}
-            src="/img/3d_hand.svg"
-            alt="3d_hand"
-          />
+          <div>
+            <img
+              height={130}
+              width={130}
+              src="/img/3d_hand.svg"
+              alt="3d_hand"
+            />
+          </div>
         </div>
       </div>
       {/* Addon 2 */}
@@ -45,7 +46,7 @@ const AddonsCards = ({ name }: Props) => {
               <p className="pt-1">$9/month</p>
             </button>
           </div>
-          <Image
+          <img
             height={130}
             width={130}
             src="/img/3d_document.svg"
@@ -66,7 +67,7 @@ const AddonsCards = ({ name }: Props) => {
             </button>
           </div>
           <div className="mt-5">
-            <Image
+            <img
               height={130}
               width={130}
               src="/img/3d_hand.svg"
@@ -88,7 +89,7 @@ const AddonsCards = ({ name }: Props) => {
             </button>
             <p className="font-rota_bold mt-2">(7 Dov free trial available)</p>
           </div>
-          <Image
+          <img
             height={130}
             width={130}
             src="/img/3d_document.svg"
@@ -109,7 +110,7 @@ const AddonsCards = ({ name }: Props) => {
             </button>
           </div>
           <div className="mt-5">
-            <Image
+            <img
               height={130}
               width={130}
               src="/img/3d_hand.svg"
@@ -118,15 +119,15 @@ const AddonsCards = ({ name }: Props) => {
           </div>
         </div>
       </div>
-      {/* Addon 6 pending */}
+      {/* Addon 6 */}
       <div className="bg-white p-5 w-full">
-        <div className="flex bg-light_grey pt-3 pb-2">
-          <div className="flex flex-col pl-4">
+        <div className="flex justify-between bg-light_grey pt-3 pb-2 pr-3">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_medium">
               Get more<span className="font-rota_black"> Storage</span>
             </h3>
             <p className="text-dark_grey text-xs">Some text here..</p>
-            <div className="flex items-center mt-3 relative">
+            <div className="flex items-center mt-3">
               <div className="w-[84px] border-[1px] border-black flex items-center px-2">
                 <input type="text" className="border-0 bg-transparent w-full" />
                 <p className="">GB</p>
@@ -137,7 +138,7 @@ const AddonsCards = ({ name }: Props) => {
             </div>
             <p className="font-rota_bold mt-2">@ 0.10$ per GB / month</p>
           </div>
-          <Image
+          <img
             height={130}
             width={130}
             src="/img/3d_document.svg"
@@ -148,7 +149,7 @@ const AddonsCards = ({ name }: Props) => {
       {/* Addon 7 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-green pb-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_medium whitespace-nowrap">
               US West <span className="font-rota_black">Storage Region</span>
             </h3>
@@ -158,7 +159,7 @@ const AddonsCards = ({ name }: Props) => {
             </button>
           </div>
           <div className="mt-5">
-            <Image
+            <img
               height={130}
               width={130}
               src="/img/3d_hand.svg"
@@ -170,7 +171,7 @@ const AddonsCards = ({ name }: Props) => {
       {/* Addon 8 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-light_grey pb-2">
-          <div className="flex flex-col pl-4 whitespace-nowrap">
+          <div className="flex flex-col pl-7 p-4 whitespace-nowrap">
             <h3 className="text-xl font-rota_medium">
               Oceania<span className="font-rota_black"> Storage Region</span>
             </h3>
@@ -179,7 +180,7 @@ const AddonsCards = ({ name }: Props) => {
               <p className="pt-1">$9/month</p>
             </button>
           </div>
-          <Image
+          <img
             height={130}
             width={130}
             src="/img/3d_document.svg"
@@ -190,7 +191,7 @@ const AddonsCards = ({ name }: Props) => {
       {/* Addon 9 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-green pb-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_black whitespace-nowrap">
               White <span className="font-rota_medium">Label</span>
             </h3>
@@ -200,7 +201,7 @@ const AddonsCards = ({ name }: Props) => {
             </button>
           </div>
           <div className="mt-5">
-            <Image
+            <img
               height={130}
               width={130}
               src="/img/3d_hand.svg"
@@ -212,7 +213,7 @@ const AddonsCards = ({ name }: Props) => {
       {/* Addon 10 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-bluish pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="font-rota_medium text-xl whitespace-nowrap">
               Password Protect <span className="font-rota_black">Videos</span>
             </h3>
@@ -226,13 +227,13 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
-          <Image height={150} width={150} src="/img/3d_paint.svg" alt="" />
+          <img height={150} width={150} src="/img/3d_paint.svg" alt="" />
         </div>
       </div>
       {/* Addon 11 */}
       <div className="bg-white p-5 w-full">
-        <div className="addon-card bg-yellow pt-2">
-          <div className="flex flex-col pl-4">
+        <div className="addon-card flex justify-between bg-yellow pt-2">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-medium">
               Video<span className="font-rota_black"> Popups</span>
             </h3>
@@ -244,12 +245,13 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
+          <img src="/img/3d_rocket.svg" alt="" />
         </div>
       </div>
       {/* Addon 12 */}
       <div className="bg-white p-5 w-full">
-        <div className="flex  bg-bluish pt-5 pb-5">
-          <div className="flex flex-col pl-7">
+        <div className="flex justify-between bg-bluish pt-5 pb-5">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="font-rota_medium text-xl whitespace-nowrap">
               Password Protect <span className="font-rota_black">Videos</span>
             </h3>
@@ -272,13 +274,13 @@ const AddonsCards = ({ name }: Props) => {
               </p>
             </div>
           </div>
-          <Image height={130} width={130} src="/img/3d_paint.svg" alt="" />
+          <img height={130} width={130} src="/img/3d_paint.svg" alt="" />
         </div>
       </div>
       {/* Addon 13 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-yellow pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_medium whitespace-nowrap">
               Video Download{" "}
               <span className="font-rota_black"> Protection</span>
@@ -291,12 +293,13 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
+          <img src="./img/3d_rocket.svg" alt="" />
         </div>
       </div>
       {/* Addon 14 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-bluish pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="font-rota_medium text-xl whitespace-nowrap">
               Watchtime <span className="font-rota_black"> Heatmap</span>
             </h3>
@@ -310,24 +313,24 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
-          <Image height={130} width={130} src="/img/3d_paint.svg" alt="" />
+          <img height={130} width={130} src="/img/3d_paint.svg" alt="" />
         </div>
       </div>
       {/* Addon 15 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-yellow pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_medium whitespace-nowrap">
               Get more
               <span className="font-rota_black"> Bandwidth</span>
             </h3>
             <p className="text-dark_grey text-xs">Some text here..</p>
-            <div className="flex items-center mt-3 relative">
+            <div className="flex items-center mt-3">
               <div className="w-[84px] border-[1px] border-black flex items-center px-2">
                 <input type="text" className="border-0 bg-transparent w-full" />
                 <p className="">GB</p>
               </div>
-              <button className="bg-dark_yellow w-[135px] h-[35px] rounded-lg font-rota_bold  text-white text-lg ml-3">
+              <button className="bg-dark_yellow w-[135px] h-[35px] rounded-lg font-rota_bold text-white text-lg ml-3">
                 <p className="pt-1">Buy</p>
               </button>
             </div>
@@ -335,12 +338,13 @@ const AddonsCards = ({ name }: Props) => {
               @ 0.05$ per GB/ month
             </p>
           </div>
+          <img src="/img/3d_rocket.svg" alt="" />
         </div>
       </div>
       {/* Addon 16 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-bluish pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="font-rota_medium text-xl whitespace-nowrap">
               US East <span className="font-rota_black"> Region</span>
             </h3>
@@ -354,13 +358,13 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
-          <Image height={130} width={130} src="/img/3d_paint.svg" alt="" />
+          <img height={130} width={130} src="/img/3d_paint.svg" alt="" />
         </div>
       </div>
       {/* Addon 17 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-yellow pt-2">
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col pl-7 p-4">
             <h3 className="text-xl font-rota_medium whitespace-nowrap">
               Asia
               <span className="font-rota_black"> Storage Region</span>
@@ -373,12 +377,13 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
+          <img src="/img/3d_rocket.svg" alt="" />
         </div>
       </div>
       {/* Addon 18 */}
       <div className="bg-white p-5 w-full">
         <div className="addon-card bg-bluish pt-2 pb-2">
-          <div className="flex flex-col pl-3">
+          <div className="flex flex-col pl-7 p-4">
             <div className="flex whitespace-nowrap">
               <h3 className="text-xl font-rota_black">
                 Universal<span className="font-rota_medium"> Player</span>
@@ -395,7 +400,7 @@ const AddonsCards = ({ name }: Props) => {
               (7 Dov free trial available)
             </p>
           </div>
-          <Image
+          <img
             height={130}
             width={130}
             src="/img/3d_paint.svg"
