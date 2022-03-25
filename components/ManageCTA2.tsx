@@ -7,34 +7,34 @@ type Props = {
 
 const ManageCTA2 = ({ name }: Props) => {
   return (
-    <div className="mt-5 space-y-5 mb-5">
+    <div className="mt-5 space-y-5 mb-5 w-full">
       <div className="flex space-x-3">
         <input
           type="text"
-          className="input"
+          className="input md:w-[300px]"
           placeholder="Enter your headline here"
         />
-        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] flex justify-center items-center pt-1">
+        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] md:w-[150.51px] flex justify-center items-center pt-1">
           <p className="font-rota_bold">FFFFFF</p>
         </span>
       </div>
       <div className="flex space-x-3">
         <input
           type="text"
-          className="input"
+          className="input md:w-[300px]"
           placeholder="Enter your text here"
         />
-        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] flex justify-center items-center pt-1">
+        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] md:w-[150.51px] flex justify-center items-center pt-1">
           <p className="font-rota_bold">FFFFFF</p>
         </span>
       </div>
       <div className="flex space-x-3">
         <input
           type="text"
-          className="input"
+          className="input md:w-[300px]"
           placeholder="Enter your button text here"
         />
-        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] flex justify-center items-center pt-1">
+        <span className="border-[0.87px] border-black rounded-[4.35px] w-[84px] md:w-[150.51px] flex justify-center items-center pt-1">
           <p className="font-rota_bold">FFFFFF</p>
         </span>
       </div>
@@ -69,7 +69,7 @@ const ManageCTA2 = ({ name }: Props) => {
         placeholder=" Enter name to save this CTA"
         className="text-dark_grey font-rota_bold input pt-3"
       />
-      <button className="bg-light_indigo h-[51px] w-full rounded-[4.35px] text-indigo font-rota_bold text-[19.14px]">
+      <button className="bg-light_indigo h-[51px] w-full md:w-36 md:float-right rounded-[4.35px] text-indigo font-rota_bold text-[19.14px]">
         Save
       </button>
     </div>
