@@ -7,7 +7,7 @@ type Props = {
   name?: string;
 };
 
-const Header = ({ name }: Props) => {
+const MainHeader = ({ name }: Props) => {
   return (
     <div className="flex items-center justify-between mt-5 px-7">
       <div className="flex items-center space-x-5">
@@ -20,4 +20,4 @@ const Header = ({ name }: Props) => {
   );
 };
 
-export default Header;
+export default MainHeader;
